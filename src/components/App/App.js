@@ -46,6 +46,12 @@ function App() {
   const [token, setToken] = React.useState('');
   const [currentUser, setCurrentUser] = React.useState({});
 
+  // PAGE TITLE
+
+  React.useEffect(() => {
+    document.title = 'Around-us';
+  }, []);
+
   // API
 
   const api = new Api({
