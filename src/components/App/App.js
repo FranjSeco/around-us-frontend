@@ -50,8 +50,9 @@ function App() {
 
   const api = new Api({
     // baseUrl: "https://around.nomoreparties.co/v1/group-7",
-    baseUrl: 'http://localhost:3000',
+    // baseUrl: 'http://localhost:3000',
     // baseUrl: "https://api.aroundtheus.students.nomoreparties.site",
+    baseUrl: "https://around-us-api.herokuapp.com",
     headers: {
       'Authorization': `Bearer ${token}`,
       // authorization: "3199dd72-198f-4d27-96ce-739071f3c183",
