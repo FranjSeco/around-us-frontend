@@ -67,7 +67,6 @@ function App() {
   });
 
   React.useEffect(() => {
-    history.push('/');
     handleCheckTkn();
   }, [])
 
