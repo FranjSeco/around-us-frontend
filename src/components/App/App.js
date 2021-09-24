@@ -67,8 +67,8 @@ function App() {
   });
   const location = useLocation();
   React.useEffect(() => {
-    if (location.pathname !== '/') {
-      history.push('/')
+    if (location.pathname === '/app' || location.pathname === '/signin') {
+      history.push('/signup')
       handleCheckTkn();
     }
     
