@@ -67,7 +67,6 @@ function App() {
   });
   const location = useLocation();
   React.useEffect(() => {
-    history.push('/signup')
     handleCheckTkn();
     console.log(location.pathname);
   }, [location.pathname])
