@@ -10,7 +10,7 @@ import ImagePopup from '../PopUp/ImagePopup.js'
 import Api from '../../utils/api.js';
 import { CurrentUserContext } from '../../contexts/CurrentUserContext.js';
 
-import { Route, Switch, Redirect, useHistory } from 'react-router-dom';
+import { Route, Switch, Redirect, useHistory, useLocation } from 'react-router-dom';
 import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 
 import Login from '../Login/Login.js';
