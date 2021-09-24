@@ -67,8 +67,12 @@ function App() {
   });
 
   React.useEffect(() => {
-    history.push('/')
-    handleCheckTkn();
+    if (location.pathname !== '/') {
+      history.push('/')
+      handleCheckTkn();
+    }
+    
+    
   }, [])
 
   const handleRegistration = (email, password) => {
