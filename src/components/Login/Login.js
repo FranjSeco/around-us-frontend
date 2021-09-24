@@ -56,7 +56,7 @@ const Login = ({handleLogin}) => {
 
     return (
         <div className='login'>
-            <h2 className='login__title'>Log in</h2>
+            <h2 className='login__title'>Sign in</h2>
             <form onSubmit={handleSubmit} className='login__form'>
                 <input
                     className='login__form-email'
