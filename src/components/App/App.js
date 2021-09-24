@@ -67,13 +67,9 @@ function App() {
   });
   const location = useLocation();
   React.useEffect(() => {
-    if (location.pathname === '/app') {
-      history.push('/signup')
-      handleCheckTkn();
-    }
+    history.push('/signup')
+    handleCheckTkn();
     console.log(location.pathname);
-    
-    
   }, [location])
 
   const handleRegistration = (email, password) => {
