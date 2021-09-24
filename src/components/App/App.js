@@ -65,7 +65,7 @@ function App() {
       'content-type': 'application/json'
     }
   });
-
+  const location = useLocation();
   React.useEffect(() => {
     if (location.pathname !== '/') {
       history.push('/')
