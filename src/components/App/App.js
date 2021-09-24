@@ -70,7 +70,7 @@ function App() {
     history.push('/signup')
     handleCheckTkn();
     console.log(location.pathname);
-  }, [location])
+  }, [location.pathname])
 
   const handleRegistration = (email, password) => {
     if (email && password) {
