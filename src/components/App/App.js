@@ -76,7 +76,7 @@ function App() {
     console.log(location.pathname);
     
     
-  }, [])
+  }, [location])
 
   const handleRegistration = (email, password) => {
     if (email && password) {
